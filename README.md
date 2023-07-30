@@ -32,3 +32,5 @@ Functionality
  Font size chooser  have at least four sizes and should immediately change the sample text font size in each font card
   
  Implement the clickable 'reset' icon on the far right of the major navigation; it makes the page appear as if the user reloaded the page (do not actually reload the page)
+![image](https://github.com/zhansayatazhibayeva/Solo-Project/assets/89229835/48771ee3-3dd4-4c8b-bdc2-174ef30c61e2)
+![image](https://github.com/zhansayatazhibayeva/Solo-Project/assets/89229835/3560d199-7a62-4751-9f53-45fcce8f3fe2)
