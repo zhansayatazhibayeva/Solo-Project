@@ -2,6 +2,9 @@
 Solo Project for Chingu. Tier1 - Favorite Fonts.
  Basically this is a projec made for Chingu voyage. 
  What it does is it shows text in 8 different fonts.
+
+ https://zhansayatazhibayeva.github.io/Solo-Project/
+ 
  Requirements
 
 Structure
