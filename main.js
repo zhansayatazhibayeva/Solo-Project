@@ -15,6 +15,7 @@ const fontName5 = document.getElementById('fontName5');
 const fontName6 = document.getElementById('fontName6');
 const fontName7 = document.getElementById('fontName7');
 const fontName8 = document.getElementById('fontName8'); 
+const ftr = document.getElementById("pageFooter");
 
 const thirdBox = document.getElementById('font-size');
 const navBox = document.getElementById('changeNavColor');
@@ -39,6 +40,7 @@ function reloadPage() {
 
 function changecolor(color,textcolor) {
     document.body.style.backgroundColor = color;
+    ftr.style.backgroundColor = color;
     txt.style.backgroundColor = color;
     txt.style.color = textcolor;
     thirdBox.style.backgroundColor = color;
