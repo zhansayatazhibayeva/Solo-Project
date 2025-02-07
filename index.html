@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Solo Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Chilanka&family=Gayathri:wght@700&family=Lato&family=Manjari&family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Roboto+Condensed&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class = 'navbar' id = "changeNavColor">
+        <div class = 'navdiv'>
+            <div class = 'logo'><a href = '#'>Google Fonts</a></div>
+                <ul>
+                    <li><a href  ="#">Catalog</a></li>
+                    <li><a href  ="#">Featured</a></li>
+                    <li><a href  ="#">Articles</a></li>
+                    <li><a href  ="#">About</a></li>
+                </ul>
+        </div>
+    </nav>
+    <br>
+    <div class = 'row'>
+            <div class = "first box">
+                <!--<h5>Search Fonts</h5>-->
+                <span>Fonts</spap>
+            </div>
+            <div class = 'second box'>
+                <input type = "text" id = "showtext" name = "" placeholder = "type something...">
+            </div>
+            <div class = 'third box'>
+                  <span value="32">32px</span>
+            </div>
+            <div class = "fourth box" >
+                <button class = "color-button" id = "white" onclick = "changecolor('white','black')"></button>
+                <button class = "color-button" id = "black" onclick = "changecolor('black','white')"></button>
+
+            </div>
+            <div class = "fifth box">
+                <button class = "icon-button" id = "rearrange-cards" onclick = 'rearrangeCards()'>
+                    rearrange
+                </button>
+            </div>
+            <div class = "sixth box">
+                <button class = "icon-button" id = "reload-page" onclick  = 'reloadPage()'>
+                    reload
+                </button>
+            </div>
+    </div>
+    
+    <br>
+    <div class = "cards">
+       
+        <div class = "card">
+            <div class = "card-content">
+                <h2 class="card-heading" id = "fontName1">Roboto</h2>
+                <span class="card-heading" id = "card-heading">Christian Robertson</span>
+                
+                <div class = "output" id = "output1"></div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName2">Gayathri</h2>
+                <span class="card-heading" id = "card-heading">SMC</span>
+                <div class = "output" id = "output2"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName3">Chilanka</h2>
+                <span class="card-heading" id = "card-heading">SMC</span>
+                <div class = "output" id = "output3"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName4">Lato</h2>
+                <span class="card-heading" id = "card-heading">Steve Matteson</span>
+                <div class = "output" id = "output4"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName5">Manjari</h2>
+                <span class="card-heading" id = "card-heading">Lucasz Dziedzic</span>
+                <div class = "output" id = "output5"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName6">Montserrat</h2>
+                <span class="card-heading" id = "card-heading">Santhosh Thottingal</span>
+                <div class = "output" id = "output6"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName7">Open Sans</h2>
+                <span class="card-heading" id = "card-heading">Julietta Ulanovsky</span>
+                <div class = "output" id = "output7"> </div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-content" id = "card-heading">
+                <h2 class="card-heading" id = "fontName8">Christian Robertson</h2>
+                <span class="card-heading" id = "card-heading">Chtistian Robertson</span>
+                <div class = "output" id = "output8"> </div>   
+            </div>
+        </div>
+    </div>
+    <footer id = "pageFooter">
+        <div class="footer-content" >
+            <p>&copy; 2023 Solo project. Zhansaya Tazhibayeva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src = "main.js"> </script>
+
+</body>
+</html>
+
+//document.getElementById('changeNavColor').style.backgroundColor = 'color';

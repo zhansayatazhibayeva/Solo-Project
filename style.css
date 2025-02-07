@@ -1,0 +1,168 @@
+*{
+    text-decoration: none;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Chilanka&family=Gayathri:wght@700&family=Lato&family=Manjari&family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Roboto+Condensed&family=Roboto:wght@100&display=swap');
+
+.navbar{
+    background: white; font-family: calibri; padding-right: 15px; padding-left: 15px; padding-bottom: 10px; border-bottom: 2px solid gray;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between; 
+}
+.logo a{
+    font-size: 35px; font-weight:bolder ; color: gray;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: gray; font-size: 18px; font-weight: normal; margin-right: 25px;
+    
+}
+.box{
+    padding-top: 10px;
+}
+input[type = "text"]
+{
+    
+    outline:none;
+    border:none;
+}
+
+
+.box{
+    display: inline-block;
+    padding: 0 5px;
+    
+}
+.first{
+    border-right: 2px solid gray;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.row{
+    outline: auto gray;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #666;
+}
+.second{
+    border-right: 2px solid gray;
+    padding-right: 150px;
+  }
+.third{
+    border-right: 2px solid gray;
+    font-weight: bold;
+   
+}
+
+.fourth {
+    background-color: inherit; 
+  }
+  
+.color-button {
+    padding: 5px 5px;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+select{
+    outline: none;
+    border: none;
+    font-weight: bolder;
+}
+.output {
+    width: 200px;
+    font-size: 32px;
+    padding: 50px;
+    margin: 20px;
+}
+#black{
+    background-color : black;
+    border-color: gray;
+}
+h2{
+  font-size: 18px;
+}
+span{
+  font-size: 16px;
+  color: gray;
+}
+#output1 {
+  font-family: 'Roboto', sans-serif;
+}
+#output2 {
+  font-family: 'Gayathri', sans-serif;
+}
+#output3 {
+  font-family: 'Chilanka', cursive;
+}
+#output4 {
+  font-family: 'Lato', sans-serif;
+}
+#output5 {
+  font-family: 'Manjari', sans-serif;
+}
+#output6 {
+  font-family: 'Montserrat', sans-serif;
+}
+#output7 {
+  font-family: 'Open Sans', sans-serif;
+}
+#output8 {
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+
+.cards{
+    margin : 0 auto;
+    max-width : 1000px;
+    display : grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:20px;
+}
+.card {
+    border-top: 2px solid gray;
+    word-wrap: break-word;
+}
+.rearrange-mode .card {
+    grid-column: 1; 
+    grid-row: auto; 
+  }
+.icon-button{
+    border: none;
+    color:grey;
+    background-color: transparent;
+}
+  .rearrange-mode .card-content {
+    display: block;
+    align-items: normal;
+    justify-content: left;
+    height: 100%;
+  }
+  
+  .rearrange-mode .card {
+    margin-bottom: 20px;
+  }
+
+  
