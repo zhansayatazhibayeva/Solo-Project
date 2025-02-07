@@ -1,20 +1,4 @@
 const txt = document.getElementById('showtext');
-const out1 = document.getElementById('output1');
-const out2 = document.getElementById('output2');
-const out3 = document.getElementById('output3');
-const out4 = document.getElementById('output4');
-const out5 = document.getElementById('output5');
-const out6 = document.getElementById('output6');
-const out7 = document.getElementById('output7');
-const out8 = document.getElementById('output8');
-const fontName1 = document.getElementById('fontName1'); 
-const fontName2 = document.getElementById('fontName2');
-const fontName3 = document.getElementById('fontName3');
-const fontName4 = document.getElementById('fontName4');
-const fontName5 = document.getElementById('fontName5');
-const fontName6 = document.getElementById('fontName6');
-const fontName7 = document.getElementById('fontName7');
-const fontName8 = document.getElementById('fontName8'); 
 const ftr = document.getElementById("pageFooter");
 
 const thirdBox = document.getElementById('font-size');
@@ -60,36 +44,9 @@ function changecolor(color, textcolor) {
     });
 }
 
-
-txt.addEventListener('input',function(){
+txt.addEventListener('input', function () {
     const enteredText = txt.value;
-    out1.textContent = enteredText;
+    document.querySelectorAll('.output').forEach(output => {
+        output.textContent = enteredText;
+    });
 });
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out2.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out3.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out4.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out5.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out6.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out7.textContent = enteredText;
-});  
-txt.addEventListener('input',function(){
-    const enteredText = txt.value;
-    out8.textContent = enteredText;
-});  
