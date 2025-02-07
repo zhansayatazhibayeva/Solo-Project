@@ -61,18 +61,6 @@ function changecolor(color, textcolor) {
 }
 
 
-function f1(e){
-    let value = e.value;
-    out1.style.fontSize = value + "px";
-    out2.style.fontSize = value + "px";
-    out3.style.fontSize = value + "px";
-    out4.style.fontSize = value + "px";
-    out5.style.fontSize = value + "px";
-    out6.style.fontSize = value + "px";
-    out7.style.fontSize = value + "px";
-    out8.style.fontSize = value + "px";
-}
-
 txt.addEventListener('input',function(){
     const enteredText = txt.value;
     out1.textContent = enteredText;
